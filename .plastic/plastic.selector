@@ -1,0 +1,4 @@
+repository "Space Kitty Project/Space Kitty Project@18968248835733@cloud"
+  path "/"
+    br "/main"
+    co "/main"
