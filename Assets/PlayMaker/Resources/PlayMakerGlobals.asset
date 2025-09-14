@@ -19,19 +19,19 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 500
+      value: 1000
     - useVariable: 1
       name: resources/water
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 600
+      value: 1000
     - useVariable: 1
       name: resources/power
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 400
+      value: 1000
     intVariables: []
     boolVariables:
     - useVariable: 1
@@ -65,6 +65,18 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: {fileID: 0}
+    - useVariable: 1
+      name: ui/moduleInfoUi
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: selectedModule
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     objectVariables: []
     materialVariables: []
     textureVariables: []
@@ -72,6 +84,6 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - openUI
