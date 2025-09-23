@@ -32,7 +32,37 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 1000
-    intVariables: []
+    intVariables:
+    - useVariable: 1
+      name: resources/crops
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1000
+    - useVariable: 1
+      name: resources/foods
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1000
+    - useVariable: 1
+      name: resources/trash
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 50
+    - useVariable: 1
+      name: resources/population
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 2
+    - useVariable: 1
+      name: day
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
     boolVariables:
     - useVariable: 1
       name: ui/activateModuleSelection
@@ -46,6 +76,12 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 1
+    - useVariable: 1
+      name: dayPaused
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     stringVariables: []
     vector2Variables: []
     vector3Variables: []
@@ -84,6 +120,6 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - openUI
