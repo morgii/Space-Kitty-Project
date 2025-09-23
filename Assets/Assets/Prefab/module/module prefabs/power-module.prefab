@@ -1096,7 +1096,12 @@ PrefabInstance:
     - target: {fileID: 4516631767412118093, guid: 39d49390fe65e2049bb75093851c29ab,
         type: 3}
       propertyPath: fsm.variables.intVariables.Array.data[0].value
-      value: 3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4516631767412118093, guid: 39d49390fe65e2049bb75093851c29ab,
+        type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[3].value
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4516631767412118093, guid: 39d49390fe65e2049bb75093851c29ab,
         type: 3}
