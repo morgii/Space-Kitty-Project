@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &768277649469414390
 Transform:
@@ -432,6 +432,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Research module
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dbfe5d70d3fdfe13e85e33ba79f6bc95,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -448,6 +453,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8523462692575084864}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: dbfe5d70d3fdfe13e85e33ba79f6bc95,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3981332875645335285}
   m_SourcePrefab: {fileID: 100100000, guid: dbfe5d70d3fdfe13e85e33ba79f6bc95, type: 3}
 --- !u!1 &1404677145107228780 stripped
 GameObject:
@@ -476,6 +485,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 35.687057, y: 30.407597, z: 67.12891}
   m_Center: {x: -1.4004688, y: -1.9266052, z: -3.246377}
+--- !u!208 &-3981332875645335285
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404677145107228780}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 17.844002, y: 15.204, z: 33.564003}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -1.4000001, y: -1.927, z: -3.246}
+  m_TimeToStationary: 0.5
 --- !u!4 &1744505795754177238 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dbfe5d70d3fdfe13e85e33ba79f6bc95,
@@ -544,6 +569,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: resource-consumption
+      objectReference: {fileID: 0}
+    - target: {fileID: 7856081153642988064, guid: 39d49390fe65e2049bb75093851c29ab,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

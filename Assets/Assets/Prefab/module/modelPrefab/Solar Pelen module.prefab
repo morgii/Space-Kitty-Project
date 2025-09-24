@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3780673579565783205
 Transform:
@@ -392,6 +392,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: resource-consumption
       objectReference: {fileID: 0}
+    - target: {fileID: 7856081153642988064, guid: 39d49390fe65e2049bb75093851c29ab,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -491,6 +496,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Solar Pelen module
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c3f2372ac8082e0ab4ff9f5226fcb7a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -507,6 +517,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 9088018816550911832}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7c3f2372ac8082e0ab4ff9f5226fcb7a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -426286874020751974}
   m_SourcePrefab: {fileID: 100100000, guid: 7c3f2372ac8082e0ab4ff9f5226fcb7a, type: 3}
 --- !u!1 &8192419189303016350 stripped
 GameObject:
@@ -535,6 +549,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 5.078742, y: 4.5727625, z: 8.873222}
   m_Center: {x: -0.020740032, y: 0.25205028, z: -0.12410784}
+--- !u!208 &-426286874020751974
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8192419189303016350}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.539, y: 2.286, z: 4.4370003}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.021000002, y: 0.252, z: -0.124000005}
+  m_TimeToStationary: 0.5
 --- !u!4 &8861537554031157540 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7c3f2372ac8082e0ab4ff9f5226fcb7a,

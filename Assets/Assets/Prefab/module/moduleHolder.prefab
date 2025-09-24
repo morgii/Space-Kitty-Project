@@ -30,7 +30,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0.161, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6376919274915649635}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -886,7 +886,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.9299994, y: 0.26368758, z: 4.818954}
+  m_LocalScale: {x: 0.99999994, y: 0.05348633, z: 0.9774755}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 6376919274915649635}
@@ -1049,13 +1049,15 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.UiOnPointerClickEvent
+        - HutongGames.PlayMaker.Actions.SetMaterial
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000005000000
-        actionHashCodes: b2cf1000c6c21405
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000500000008000000
+        actionHashCodes: b2cf1000c6c2140511ab5a02
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -1067,6 +1069,14 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 608422643115958895}
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
@@ -1114,12 +1124,25 @@ MonoBehaviour:
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams: []
-        fsmObjectParams: []
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: 
+          value: {fileID: 2100000, guid: c383b9d73538470e6b2bed66edd67d0d, type: 2}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
-        fsmIntParams: []
+        fsmIntParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -1145,7 +1168,7 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001100000011000000010000000100000017000000140000001f000000
+        paramDataType: 140000001100000011000000010000000100000017000000140000001f000000140000001000000020000000
         paramName:
         - gameObject
         - activate
@@ -1155,8 +1178,11 @@ MonoBehaviour:
         - onPointerClickEvent
         - gameObject
         - eventTarget
-        paramDataPos: 0000000000000000010000000000000001000000000000000100000000000000
-        paramByteDataSize: 0000000000000000000000000100000001000000000000000000000000000000
+        - gameObject
+        - materialIndex
+        - material
+        paramDataPos: 0000000000000000010000000000000001000000000000000100000000000000020000000000000000000000
+        paramByteDataSize: 0000000000000000000000000100000001000000000000000000000000000000000000000000000000000000
     - name: State 3
       description: 
       colorIndex: 0
@@ -1173,12 +1199,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.SetMaterial
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: b2cf1000
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000005000000
+        actionHashCodes: b2cf100011ab5a02
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -1190,6 +1218,14 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 608422643115958895}
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -1197,12 +1233,25 @@ MonoBehaviour:
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams: []
-        fsmObjectParams: []
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: 
+          value: {fileID: 2100000, guid: 3c912c20aa6e8b35a872bd4985b76cc8, type: 2}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
-        fsmIntParams: []
+        fsmIntParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -1227,22 +1276,25 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000011000000110000000100000001000000
+        paramDataType: 1400000011000000110000000100000001000000140000001000000020000000
         paramName:
         - gameObject
         - activate
         - recursive
         - resetOnExit
         - everyFrame
-        paramDataPos: 0000000000000000010000000000000001000000
-        paramByteDataSize: 0000000000000000000000000100000001000000
+        - gameObject
+        - materialIndex
+        - material
+        paramDataPos: 0000000000000000010000000000000001000000010000000000000000000000
+        paramByteDataSize: 0000000000000000000000000100000001000000000000000000000000000000
     - name: State 5
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 443.46094
-        y: 115.21094
+        x: 445.46094
+        y: 111.21094
         width: 100
         height: 16
       isBreakpoint: 0

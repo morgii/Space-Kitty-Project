@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6997890489858396023
 Transform:
@@ -392,6 +392,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: resource-consumption
       objectReference: {fileID: 0}
+    - target: {fileID: 7856081153642988064, guid: 39d49390fe65e2049bb75093851c29ab,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -481,6 +486,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sleeper module
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 41bcbc1f724f29ebeab6bba89ba1e088,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -497,6 +507,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 3506288037246293638}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 41bcbc1f724f29ebeab6bba89ba1e088,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -865851706950354540}
   m_SourcePrefab: {fileID: 100100000, guid: 41bcbc1f724f29ebeab6bba89ba1e088, type: 3}
 --- !u!1 &8466366353616438611 stripped
 GameObject:
@@ -525,6 +539,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 5.4627037, y: 3.9437203, z: 10.275583}
   m_Center: {x: 0.000032424927, y: -0.1701464, z: 0}
+--- !u!208 &-865851706950354540
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8466366353616438611}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.7310002, y: 1.9720001, z: 5.138}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: -0.17, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!4 &9094249768381636585 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 41bcbc1f724f29ebeab6bba89ba1e088,
