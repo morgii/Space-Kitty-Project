@@ -329,6 +329,100 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
+--- !u!1001 &5024397009287512592
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8795509672302630450}
+    m_Modifications:
+    - target: {fileID: 866661099697774260, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_Name
+      value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e3aea96ac52c4210490a4fbeb5015eed, type: 3}
+--- !u!4 &5969311964981263997 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1688146101404466285, guid: e3aea96ac52c4210490a4fbeb5015eed,
+    type: 3}
+  m_PrefabInstance: {fileID: 5024397009287512592}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8219864530119535049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -527,6 +621,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5452825963688962978}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 992cd25a64c0e6644bad3940aa5c72cc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5969311964981263997}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 992cd25a64c0e6644bad3940aa5c72cc,
         type: 3}
