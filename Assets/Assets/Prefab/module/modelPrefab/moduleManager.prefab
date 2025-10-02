@@ -498,6 +498,8 @@ MonoBehaviour:
         - Research Center
         - Living Place
         - Power Generator
+        - Green House
+        - Oxygen Generator
         vector4Values: []
         objectReferences: []
       - useVariable: 1
@@ -516,6 +518,8 @@ MonoBehaviour:
         - Research center produces Metal or idk
         - Living place extends people capacity
         - Power generator generates power
+        - Greenhouse, there are trees!
+        - Generates oxygen alltime
         vector4Values: []
         objectReferences: []
       - useVariable: 1
@@ -536,6 +540,8 @@ MonoBehaviour:
         - {fileID: 1404677145107228780, guid: 6b38ec2bb4d51145ba50841faeae3422, type: 3}
         - {fileID: 8466366353616438611, guid: 901fe065cc083d797b3205f4f5637cb6, type: 3}
         - {fileID: 8192419189303016350, guid: 8c52e3272e518d5c3b98d6412793dfcf, type: 3}
+        - {fileID: 8466366353616438611, guid: 334f567b96a2e51b3adeb8d8fe4b601f, type: 3}
+        - {fileID: 8192419189303016350, guid: 7831429e5ed06213d9db8c12eb051aa8, type: 3}
       enumVariables: []
       categories:
       - 

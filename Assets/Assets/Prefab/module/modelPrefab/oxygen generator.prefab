@@ -583,7 +583,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 2.039
+        value: 3.15
       intVariables: []
       boolVariables: []
       stringVariables: []
@@ -666,6 +666,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: windowLightChanger
+      objectReference: {fileID: 0}
+    - target: {fileID: 722999300666702469, guid: d73c69aa69883a483a94c36fbfbe1118,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2439603657349349300, guid: d73c69aa69883a483a94c36fbfbe1118,
         type: 3}
@@ -806,10 +811,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4516631767412118093, guid: 39d49390fe65e2049bb75093851c29ab,
+        type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[6].value
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4516631767412118093, guid: 39d49390fe65e2049bb75093851c29ab,
+        type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[1].value
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4516631767412118093, guid: 39d49390fe65e2049bb75093851c29ab,
+        type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[2].value
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133055932342504254, guid: 39d49390fe65e2049bb75093851c29ab,
+        type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[4].value
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 5133055932342504254, guid: 39d49390fe65e2049bb75093851c29ab,
         type: 3}
       propertyPath: fsm.variables.floatVariables.Array.data[5].value
-      value: 35
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7856081153642988064, guid: 39d49390fe65e2049bb75093851c29ab,
         type: 3}
@@ -854,7 +879,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7c3f2372ac8082e0ab4ff9f5226fcb7a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.039
+      value: 3.15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c3f2372ac8082e0ab4ff9f5226fcb7a,
         type: 3}
@@ -898,6 +923,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 7c3f2372ac8082e0ab4ff9f5226fcb7a,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7c3f2372ac8082e0ab4ff9f5226fcb7a,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4d497497748ec0809aed4cf9ffeeedd6, type: 2}
@@ -910,21 +940,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: 5b1ea081bd767d591a2f974b24069cdf, type: 2}
+      objectReference: {fileID: 2100000, guid: 93f404ccb3d83e1d5bcf59c4c1498fc6, type: 2}
     - target: {fileID: -7511558181221131132, guid: 7c3f2372ac8082e0ab4ff9f5226fcb7a,
         type: 3}
       propertyPath: m_Materials.Array.data[3]
       value: 
-      objectReference: {fileID: 2100000, guid: 76b4a78aa68867892835aef664bdbd7c, type: 2}
+      objectReference: {fileID: 2100000, guid: ab3a0ad65f73a76999ea2ff932763401, type: 2}
     - target: {fileID: -7511558181221131132, guid: 7c3f2372ac8082e0ab4ff9f5226fcb7a,
         type: 3}
       propertyPath: m_Materials.Array.data[4]
       value: 
       objectReference: {fileID: 2100000, guid: 49d8b82ea1d232e2284c7d1a7ff3eb95, type: 2}
+    - target: {fileID: -5754084199372789682, guid: 7c3f2372ac8082e0ab4ff9f5226fcb7a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 6255687079079774844, guid: 8eb1bff310b8ea55b8dd304f08031145,
+        type: 3}
     - target: {fileID: 919132149155446097, guid: 7c3f2372ac8082e0ab4ff9f5226fcb7a,
         type: 3}
       propertyPath: m_Name
-      value: Solar Pelen module
+      value: oxygen generator
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7c3f2372ac8082e0ab4ff9f5226fcb7a,
         type: 3}
@@ -990,8 +1026,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5.078742, y: 4.5727625, z: 8.873222}
-  m_Center: {x: -0.020740032, y: 0.25205028, z: -0.12410784}
+  m_Size: {x: 9.036449, y: 5.8462744, z: 10.496786}
+  m_Center: {x: 0.6180154, y: -0.21811974, z: 1.1384611}
 --- !u!208 &-426286874020751974
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -1002,11 +1038,11 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 2.539, y: 2.286, z: 4.4370003}
+  m_Extents: {x: 4.518, y: 2.923, z: 5.248}
   m_MoveThreshold: 0.1
   m_Carve: 0
   m_CarveOnlyStationary: 1
-  m_Center: {x: -0.021000002, y: 0.252, z: -0.124000005}
+  m_Center: {x: 0.61800003, y: -0.21800001, z: 1.138}
   m_TimeToStationary: 0.5
 --- !u!4 &8861537554031157540 stripped
 Transform:

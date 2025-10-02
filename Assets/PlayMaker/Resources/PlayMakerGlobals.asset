@@ -19,19 +19,19 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 1000
+      value: 975
     - useVariable: 1
       name: resources/water
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 1000
+      value: 985
     - useVariable: 1
       name: resources/power
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 1000
+      value: 879
     - useVariable: 1
       name: sunRotation
       tooltip: 
@@ -44,25 +44,25 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 1000
+      value: 987
     - useVariable: 1
       name: resources/foods
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 1000
+      value: 956
     - useVariable: 1
       name: resources/trash
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 50
+      value: 56
     - useVariable: 1
       name: resources/population
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 2
+      value: 6
     - useVariable: 1
       name: day
       tooltip: 
@@ -80,7 +80,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 452
+      value: 2350
     boolVariables:
     - useVariable: 1
       name: isCameraMoveable
