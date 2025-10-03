@@ -1,5 +1,6 @@
 ![Logo](https://i.ibb.co.com/fVLXM0C8/logo.png)
 
+Game zip file password is : 1234
 
 # 🌌 Moon Forces by Space Kitty
 
